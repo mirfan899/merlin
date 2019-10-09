@@ -1,0 +1,9 @@
+Cantonese Voice
+------------------------------------
+This is a simple Cantonese tts model using modified version of MTTS (https://github.com/jackiexiao/mtts).
+It is specifically designed for research purpose.
+
+Directory
+------------------------------------
+Each subdirectory of this directory contains the scripts for a sequence of experiments.
+  s1: To run cantonese_voice with WORLD vocoder
