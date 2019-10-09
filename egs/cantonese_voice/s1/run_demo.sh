@@ -4,16 +4,6 @@
 train_tts=true
 run_tts=true
 voice_name="cantonese_voice"
-#demo_voice=thchs30_250_demo
-#data_url=https://github.com/Jackiexiao/MTTS/releases/download/v0.1/thchs30_250_demo.tar.gz
-#
-#if [ ! -f ${demo_voice}.tar.gz ]; then
-#    echo "downloading data......"
-#    wget $data_url
-#    tar -zxvf ${demo_voice}.tar.gz
-#    mkdir -p database
-#    cp -r ${demo_voice}/* database
-#fi
 
 # train tts system
 if [ "$train_tts" = true ]; then

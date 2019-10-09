@@ -7,7 +7,7 @@ bash run_demo.sh
 
 ## To train with your own dataset
 
-(1) Create the following dir and copy your file to dir (suppose current dir is merlin/egs/mandarin_voice/s1/)
+(1) Create the following dir and copy your file to dir (suppose current dir is merlin/egs/cantonese_voice/s1/)
 
 * database/wav 
 * database/labels/label_phone_align 
@@ -26,7 +26,7 @@ bash run_demo.sh
 
 default setting is 
 
-* QuestionFile=questions-mandarin.hed
+* QuestionFile=questions-cantonese.hed
 * Labels=phone_align
 * SamplingFreq=16000
 * Train=200
@@ -36,5 +36,5 @@ default setting is
 (3) then run
 
 ```
-./run_mandarin_voice.sh
+./run_cantonese_voice.sh
 ```
