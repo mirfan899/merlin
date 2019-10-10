@@ -29,7 +29,7 @@ if [ "$use_gpu_lock" = true ]; then
     else
         echo "No GPU is available! Running on CPU..."
 
-        THEANO_FLAGS=$MERLIN_THEANO_FLAGS
+        THEANO_FLAGS="floatX=float32,mode=FAST_RUN,device=cpu"
         export THEANO_FLAGS
     
         python $@
