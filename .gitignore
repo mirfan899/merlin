@@ -17,3 +17,4 @@ bin/
 
 # Pycharm IDE
 .idea/
+.DS_store
