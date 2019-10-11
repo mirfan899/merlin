@@ -18,4 +18,4 @@ duration_conf_file=$1
 ### Step 5: train duration model ###
 echo "Step 5:"
 echo "training duration model..."
-python ${MerlinDir}/src/run_merlin.py $duration_conf_file
+./scripts/submit.sh ${MerlinDir}/src/run_merlin.py $duration_conf_file
